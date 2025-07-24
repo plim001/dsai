@@ -22,9 +22,9 @@ def main():
 def llama():
     return(render_template("llama.html"))
 
-@app.route("/sepia2",methods=["GET","POST"])
-def sepia2():
-    return(render_template("sepia2.html"))
+@app.route("/sepia",methods=["GET","POST"])
+def sepia():
+    return(render_template("sepia_hf.html"))
 
 @app.route("/llama_reply",methods=["GET","POST"])
 def llama_reply():
